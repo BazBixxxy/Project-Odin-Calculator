@@ -1,0 +1,24 @@
+body {
+  margin: 10px;
+}
+
+.display {
+  height: 80px;
+  width: 350px;
+  font-size: 20px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  gap: 10px;
+}
+
+.input {
+  background-color: lightblue;
+  height: 80px;
+  border: 1px solid black;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+}
